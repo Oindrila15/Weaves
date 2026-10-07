@@ -1,6 +1,17 @@
 # Weaves
 
-A learn-by-building project. The owner is learning agentic architecture with Claude and preparing for the Claude Certified Architect - Foundations (CCA-F) exam, and builds working projects alongside each topic.
+A learn-by-building project. The owner, Oindrila, is learning agentic architecture with Claude and preparing for the Claude Certified Architect - Foundations (CCA-F) exam, and builds working projects alongside each topic. Oindrila is a beginner: explain each step plainly.
+
+## Product
+
+Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Currently in the requirements stage; no code yet.
+
+## Rules
+
+- Use Anthropic's official study materials only for exam prep. Never cite third-party exam guides as fact.
+- Do not scrape Instagram or any login-gated content. It breaks their terms and risks the owner's account.
+- Show a weaver's contact details only with consent.
+- Keep documents short and human-readable.
 
 ## Goals
 
@@ -10,7 +21,7 @@ A learn-by-building project. The owner is learning agentic architecture with Cla
 
 ## Exam topics (unverified)
 
-Third-party guides list five domains: agentic architecture, Claude Code configuration, prompt engineering, tool design and MCP, and context management. Sources disagree on weights, so confirm against Anthropic's official exam guide before relying on this list.
+Pending. Anthropic says the exam covers Claude Code, the Claude Agent SDK, the Claude API and MCP. The official exam guide (PDF, via the Anthropic Partner Academy) lists the exact domains; Oindrila will share it. Do not rely on any domain list until then.
 
 ## Stack and conventions
 
