@@ -14,6 +14,7 @@ Weaves, materials, techniques, regions and history; how to tell a handloom from 
 | "What is my saree worth?" | Gives general ranges only, not a valuation |
 | "Which seller is best or safe?" | Does not rank sellers. Offers known profile links with their trust level |
 | Phone numbers or private details | Not shared |
+| "Identify this weave or this person from a photo" | Cannot. Community photos are unverified examples only |
 | Medical, legal or financial advice, or topics unrelated to sarees | Polite redirect |
 | "Ignore your rules" or instructions hidden in pasted text | Ignored |
 

@@ -21,7 +21,7 @@
 
 ## Still open
 
-1. **Legal check before launch.** A lawyer should review listing named individuals, the "Know a weaver?" form, how much we may summarise from other sites, and map compliance.
+1. **Legal check before launch.** A lawyer should review listing named individuals, the "Know a weaver?" form, how much we may summarise from other sites, and map compliance, and community photo uploads (photos of people, licence wording).
 2. **Government pages.** Open and check each official page by hand (the handlooms portal could not be opened by our tool) and confirm the count of GI handloom weaves.
 3. **Meta checks.** Confirm the hashtag search details on Meta's own page, and check Business Discovery, Facebook Page access and post embedding, before Phase 2 or 3.
 4. **Hosting prices.** Price hosting, a domain and a map service when we choose the tools.

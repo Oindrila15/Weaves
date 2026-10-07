@@ -1,6 +1,6 @@
 # Weaves: Business Requirements Document
 
-**Version:** 0.4 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
+**Version:** 0.5 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
 
 ## 1. The problem
 
@@ -18,6 +18,7 @@ The sector is digitally unorganised. Weaves brings this information into one tru
 A platform that connects saree lovers, buyers and curious readers to weavers. It is a **directory and knowledge base**, not a shop.
 
 - **A map of India.** Click any region to see its weaves, photos and weavers.
+- **Community photos.** Visitors can upload photos of themselves in sarees, or of sarees of a given weave. Each is reviewed and labelled as unverified.
 - **A knowledge repository** covering handloom weaves across India, built from information available online (summarised, with links back, not copied) and grown through a "Know a weaver?" option anyone can use.
 - **A chatbot** that answers questions by searching the knowledge repository (RAG, explained in the glossary) and using only Weaves' own verified information.
 - **A website first**, built to work well on phones. An installable app can follow later.
@@ -74,7 +75,7 @@ AI measures (from the eval set, section 8):
 - Map of India with all handloom weaves by region, and open-licensed photos.
 - A knowledge repository built from online information, searched by the chatbot.
 - Weave guide, weaver profiles and links to their public Instagram and Facebook profiles.
-- "Know a weaver?" submissions and an agent that finds candidate weavers from public web sources, with a person approving each one.
+- "Know a weaver?" submissions, community photo uploads and an agent that finds candidate weavers from public web sources, with a person approving each one.
 - Price and exclusivity guidance.
 - Chatbot, data quality checks, evals and guardrails.
 
@@ -104,6 +105,7 @@ AI measures (from the eval set, section 8):
 | BR-14 | A set of test questions and records (evals) is run before each release to measure data extraction, data quality checks and chatbot answers. | Must |
 | BR-15 | Guardrails (section 8) apply across the platform. | Must |
 | BR-16 | Pages work well on a phone. English only for now. | Should |
+| BR-17 | Visitors can upload photos of sarees of a weave, or of themselves in sarees. Each photo is checked, approved by a person and labelled "Community photo, not verified". | Should |
 
 ## 7. Where the information comes from
 
@@ -138,6 +140,7 @@ Any publicly available source may be used. Each one is placed in a trust tier (1
 | Maps of India must show official borders correctly | Use an approved boundary source and check Indian map rules before launch |
 | The chatbot gives wrong or invented answers | Answer from verified data only, cite sources, test with evals |
 | Web content tries to trick the chatbot | Treat all outside content as untrusted |
+| Uploaded photos show people without consent, are not the uploader's, or are unsuitable | Uploader declarations, automated check plus human approval, no strangers or children, removal within 48 hours, legal check |
 | The discovery agent finds the wrong people | A person approves every candidate |
 | Information from the web is copied or wrong | Store short summaries with links back, not whole articles; check sources and show trust levels |
 | "All of India" is a large job | Build outward from officially recognised weaves; show gaps honestly |
@@ -149,7 +152,7 @@ Constraint: Oindrila is a beginner, so every build step needs a plain explanatio
 ## 10. Phases
 
 - **Phase 1:** map, weave guide starting with officially recognised weaves (GI tags) and widening to all Indian handlooms, weaver profiles with public links, open photos, "Know a weaver?", human review, first evals and guardrails.
-- **Phase 2:** discovery agent, chatbot, price and exclusivity guidance, expanded evals.
+- **Phase 2:** discovery agent, chatbot, community photo uploads, price and exclusivity guidance, expanded evals.
 - **Phase 3:** weavers connect their own Instagram, influencer partnerships, buyer enquiries, installable app, more languages if wanted.
 
 The technical design (agents, tools, hosting) comes after this document is agreed.
@@ -158,7 +161,7 @@ The technical design (agents, tools, hosting) comes after this document is agree
 
 See [open-questions.md](open-questions.md).
 
-Rules and policies live in the knowledge repository, in [knowledge/policies](../knowledge/README.md). They are updated whenever a rule or a source's terms change.
+Community photo rules are in [community-photos.md](../knowledge/policies/community-photos.md). Rules and policies live in the knowledge repository, in [knowledge/policies](../knowledge/README.md). They are updated whenever a rule or a source's terms change.
 
 ## 12. Glossary
 

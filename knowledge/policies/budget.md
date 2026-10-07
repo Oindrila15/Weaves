@@ -11,7 +11,7 @@
 | Chatbot answers | $20 | About $0.01 per answer on Sonnet 5.5 ($2 per million input tokens, $10 per million output), so about 2,000 answers. Haiku 4.5 costs about half |
 | Web search | $10 | $10 per 1,000 searches |
 | Building the knowledge base | $10 | Batch processing is half price. Mostly in the first months |
-| Hosting, domain, other | $10 | Not yet priced. Free tiers may cover it. To check |
+| Hosting, domain, storage, other | $10 | Not yet priced. Free tiers may cover it. Community photo storage needs a cap. To check |
 
 Prices: [Claude pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 

@@ -21,6 +21,7 @@ This folder holds everything Weaves knows and every rule it follows. The chatbot
 | [photos-and-licences.md](policies/photos-and-licences.md) | Which photos we may show |
 | [maps.md](policies/maps.md) | Showing India's map correctly |
 | [personal-data-and-contacts.md](policies/personal-data-and-contacts.md) | Weaver contacts and privacy |
+| [community-photos.md](policies/community-photos.md) | Photos uploaded by visitors |
 | [chatbot-scope.md](policies/chatbot-scope.md) | What the chatbot answers and declines |
 | [budget.md](policies/budget.md) | The $50 monthly cap |
 | [success-targets.md](policies/success-targets.md) | Starter targets for the website and AI |
