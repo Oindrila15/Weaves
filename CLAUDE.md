@@ -4,7 +4,7 @@ A learn-by-building project. The owner, Oindrila, is learning agentic architectu
 
 ## Product
 
-Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Website first (works on phones), installable app later. English only. Free to use. Currently in the requirements stage; no code yet.
+Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Website first (works on phones), installable app later. English only. Free to use. Budget cap: $50 per month in total. Currently in the requirements stage; no code yet.
 
 ## Rules
 
