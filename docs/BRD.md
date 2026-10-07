@@ -1,6 +1,6 @@
 # Weaves: Business Requirements Document
 
-**Version:** 0.3 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
+**Version:** 0.4 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
 
 ## 1. The problem
 
@@ -38,7 +38,7 @@ Payments and delivery stay between buyer and weaver, outside Weaves.
 - Learn agentic architecture by building Weaves in small steps.
 - Prepare for the Claude Certified Architect - Foundations exam using Anthropic's official materials only.
 
-**Success measures.** Weaves is free and does not need to onboard weavers. Success is how much good information it gives out. Targets are still to be agreed.
+**Success measures.** Weaves is free and does not need to onboard weavers. Success is how much good information it gives out. Starter targets are in [success-targets.md](../knowledge/policies/success-targets.md).
 
 Website measures:
 - Footfall (unique visitors) and returning visitors.
@@ -107,6 +107,8 @@ AI measures (from the eval set, section 8):
 
 ## 7. Where the information comes from
 
+Any publicly available source may be used. Each one is placed in a trust tier (1 official to 5 community), and the tier decides the trust level shown. See [source-tiers-and-trust.md](../knowledge/policies/source-tiers-and-trust.md).
+
 - **Official government pages** (GI registry, handloom brand listings). The reliable base. Exact pages and formats still need to be checked.
 - **"Know a weaver?" submissions** from visitors and influencers, credited.
 - **Public web search** by the discovery agent. It reads search results and public pages that mention weavers, not Instagram itself. We will check the search tool's terms before building.
@@ -155,6 +157,8 @@ The technical design (agents, tools, hosting) comes after this document is agree
 ## 11. Open questions
 
 See [open-questions.md](open-questions.md).
+
+Rules and policies live in the knowledge repository, in [knowledge/policies](../knowledge/README.md). They are updated whenever a rule or a source's terms change.
 
 ## 12. Glossary
 

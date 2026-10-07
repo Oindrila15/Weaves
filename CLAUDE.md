@@ -12,6 +12,7 @@ Weaves is a directory and knowledge base that connects saree lovers and buyers t
 - Do not scrape Instagram or any login-gated content. It breaks their terms and risks the owner's account.
 - Show a weaver's contact details only with consent.
 - Keep documents short and human-readable.
+- Policies and rules live in `knowledge/policies/`. When a rule or a source's terms change, update the policy file (including its Last checked date) and add a line to `knowledge/CHANGELOG.md`. Follow them when building.
 
 ## Goals
 
