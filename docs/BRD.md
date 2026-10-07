@@ -1,6 +1,6 @@
 # Weaves: Business Requirements Document
 
-**Version:** 0.1 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
+**Version:** 0.2 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
 
 ## 1. The problem
 
@@ -8,111 +8,133 @@ Handloom sarees are made by skilled weavers, but buying directly from them is ha
 
 - A buyer cannot see a weaver's full collection. Many weavers are not active online.
 - A buyer usually has no way to contact the weaver.
-- Reliable information is hard to find: what the material is, how the weave is made, what a fair price is, and how rare the saree is.
-- Some knowledge is shared by influencers in Instagram stories, but stories disappear after a day. Miss one and the information is gone.
+- Reliable information is hard to find: the material, how the weave is made, a fair price, how rare the saree is.
+- Some knowledge is shared by influencers in Instagram stories, but stories disappear after a day.
 
 The sector is digitally unorganised. Weaves brings this information into one trusted place.
 
 ## 2. What Weaves is
 
-A platform that connects saree lovers, buyers and curious readers to weavers. It is a **directory and knowledge base**, not a shop. People find a weave, learn about it, see who makes it, and get in touch with the weaver. Payments and delivery happen between buyer and weaver, outside Weaves.
+A platform that connects saree lovers, buyers and curious readers to weavers. It is a **directory and knowledge base**, not a shop.
+
+- **A map of India.** Click any region to see its weaves, photos and weavers.
+- **A knowledge repository** that grows through a "Know a weaver?" option anyone can use.
+- **A chatbot** that answers questions using only Weaves' own verified information.
+- **Evals and guardrails** across the whole platform, so what it shows and says can be trusted.
+
+Payments and delivery stay between buyer and weaver, outside Weaves.
 
 ## 3. Goals
 
 **Product goals**
-- Make a weaver's collection, weave type and contact easy to find.
+- Make weaves, weavers and their public profiles easy to find, starting from a map.
 - Explain each weave: material, technique, region and exclusivity.
 - Give fair price guidance.
 - Show where every fact came from and how much to trust it.
+- Let people contribute what they know.
 
 **Learning goals** (kept separate on purpose)
 - Learn agentic architecture by building Weaves in small steps.
 - Prepare for the Claude Certified Architect - Foundations exam using Anthropic's official materials only.
 
-**How we will measure success.** Targets are still to be agreed with Oindrila. Suggested measures:
-- Number of weavers listed with consent.
-- Share of records that show a source and a trust level.
-- Number of buyer enquiries sent to weavers.
-- Share of records that pass the data quality checks.
+**Success measures.** Targets are still to be agreed:
+- Weaves and weavers listed with a source.
+- Share of records passing data quality checks.
+- Chatbot answers that are correct and backed by a source (from the eval set).
+- Contributions received through "Know a weaver?".
 
 ## 4. Who it is for
 
 | Person | What they need |
 |---|---|
-| Buyer | Find a genuine saree, see the price range, contact the weaver |
+| Buyer | Find a genuine saree and the weaver's public profile |
 | Knowledge seeker | Learn about weaves, materials and regions |
-| Weaver | Be found by buyers without needing to be tech-savvy |
-| Influencer or curator | Have their knowledge kept and credited, not lost after 24 hours |
+| Contributor | Add a weaver they know, simply |
+| Weaver | Be found without needing to be tech-savvy |
+| Influencer or curator | Have their knowledge kept and credited |
 | Platform owner (Oindrila) | Keep the information accurate and trusted |
 
 ## 5. Scope
 
-**In scope for the first release**
-- Weave guide (material, technique, region, official recognition such as GI tags).
-- Weaver profiles with collection, price range and contact.
+**In scope**
+- Map of India with weaves by region, and open-licensed photos.
+- Weave guide, weaver profiles and links to their public Instagram and Facebook profiles.
+- "Know a weaver?" submissions and an agent that finds candidate weavers from public web sources, with a person approving each one.
 - Price and exclusivity guidance.
-- Data quality checks on everything shown.
-- Contact details shown only with the weaver's consent.
+- Chatbot, data quality checks, evals and guardrails.
 
 **Out of scope for now**
 - Payments, shipping and returns.
-- Automatic scraping of Instagram. It breaks Instagram's rules, stories need a login, and it puts Oindrila's account at risk.
+- Scraping Instagram or Facebook. It breaks their rules and risks Oindrila's accounts.
+- Contacting weavers one by one.
+- Showing phone numbers without the weaver's consent.
 
 ## 6. What Weaves must do
 
 | # | Requirement | Priority |
 |---|---|---|
-| BR-01 | Visitors can browse and search weaves by name, region, material and technique. | Must |
-| BR-02 | Each weave page explains the material, the technique and how to tell it is genuine. | Must |
-| BR-03 | Each weaver has a profile showing location, weaves made and collection. | Must |
-| BR-04 | A weaver's contact is shown only after the weaver has agreed. | Must |
-| BR-05 | Buyers can send an enquiry to a weaver. | Must |
+| BR-01 | An interactive map of India. Clicking a region shows its weaves, photos and weavers. | Must |
+| BR-02 | Search by weave name, region, material and technique. | Must |
+| BR-03 | Each weave page explains the material, the technique and how to tell it is genuine. | Must |
+| BR-04 | Each weaver profile shows location, weaves made and links to their public Instagram and Facebook profiles. | Must |
+| BR-05 | A phone number or personal contact is shown only after the weaver agrees. | Must |
 | BR-06 | Every fact shows its source, the date it was last checked and a trust level. | Must |
 | BR-07 | Weaves claiming official recognition (for example a GI tag) are checked against government sources. | Must |
-| BR-08 | Prices are shown as ranges with a short note on what affects them. | Should |
-| BR-09 | Each weave shows how exclusive it is (common, limited or rare) and why. | Should |
-| BR-10 | Information with low trust is held for a person to review before it is published. | Must |
-| BR-11 | Buyers can report wrong or outdated information. | Should |
-| BR-12 | Pages work well on a phone and offer English plus at least one regional language. | Should |
-
-**Example of success for BR-06:** a weaver's price range displays "Source: weaver, checked 3 Oct 2026, trust: high".
+| BR-08 | Photos come only from open licences or the public domain. Each photo shows its licence and credit. | Must |
+| BR-09 | Anyone can submit a weaver through "Know a weaver?" with a link, screenshot or note. | Must |
+| BR-10 | An agent finds candidate weavers from public web sources. A person approves each one before it is listed. | Should |
+| BR-11 | Low-trust information and reports of errors go to a person for review before they are published. | Must |
+| BR-12 | Prices appear as ranges, and each weave shows how exclusive it is (common, limited, rare) and why. | Should |
+| BR-13 | A chatbot answers questions from Weaves' verified information, cites its sources, and says so when it does not know. | Should |
+| BR-14 | A set of test questions and records (evals) is run before each release to measure data extraction, data quality checks and chatbot answers. | Must |
+| BR-15 | Guardrails (section 8) apply across the platform. | Must |
+| BR-16 | Pages work well on a phone and offer English plus at least one regional language. | Should |
 
 ## 7. Where the information comes from
 
-- **Official government pages** (such as GI registry and handloom brand listings). This is the reliable base. The exact pages and formats still need to be checked.
-- **Weavers directly**, for example by sending photos and a voice note on WhatsApp. Claude turns them into a record and a person confirms it.
-- **Influencers, with their permission**, or screenshots and links that users submit from public posts, which Claude reads and a person confirms.
-- **Buyers**, who report corrections.
+- **Official government pages** (GI registry, handloom brand listings). The reliable base. Exact pages and formats still need to be checked.
+- **"Know a weaver?" submissions** from visitors and influencers, credited.
+- **Public web search** by the discovery agent. It reads search results and public pages that mention weavers, not Instagram itself. We will check the search tool's terms before building.
+- **Open-licensed photo sources**, such as Wikimedia Commons, with licence and credit recorded.
+- **Buyers' corrections**.
 
-**Data quality** means checking that records are complete, plausible (for example prices within a sensible range), consistent with official sources, not duplicated and not stale.
+**Data quality** means checking that records are complete, plausible (for example prices in a sensible range), consistent with official sources, not duplicated and not stale.
 
-## 8. Quality, privacy and trust
+## 8. Evals and guardrails
 
-- **Accuracy:** nothing is shown as fact without a source.
-- **Freshness:** old prices lose trust over time and are flagged.
-- **Privacy:** a weaver's phone number is personal data. India's Digital Personal Data Protection Act, 2023 applies. Check the exact obligations with a lawyer before launch.
-- **Credit:** influencer content is credited and used only with permission.
+**Evals** are tests we can rerun. Each has real examples with known right answers. They cover three things: whether information is extracted correctly from a screenshot or page, whether the data quality checks catch bad records, and whether the chatbot is correct and sticks to its sources. Results are tracked from release to release so quality does not slip unnoticed.
+
+**Guardrails** are rules the platform must not break:
+- The chatbot answers only from verified Weaves information and cites it. No invented prices, weavers or contacts.
+- It never gives out a contact that has no consent. It does not certify a particular saree as genuine.
+- Content from the web and from users is treated as untrusted. Instructions hidden inside it are ignored.
+- Nothing is published from a source that is not credited.
+- Personal data is kept to what the platform needs, and a weaver can ask for removal.
+- Questions outside saree and handloom topics get a polite redirect.
 
 ## 9. Assumptions, risks and constraints
 
 | Risk or assumption | How we handle it |
 |---|---|
-| Weavers may not want to be listed or may not trust a new platform | Start with a few willing weavers, always ask consent, make joining simple |
-| Fake "handloom" sarees damage trust | Check against official sources and show trust levels |
-| Government data may be incomplete or hard to read | Verify early, and fall back to manual entry |
-| Legal or privacy problems | Consent first, no scraping, legal review before launch |
-| The project grows into a full marketplace | Keep the first release as a directory |
-| Learning and product goals compete for time | Build in small steps; each step teaches one exam topic |
+| Weavers may object to being listed | Link to their public profile only, no contact details, quick removal on request |
+| Photos may carry licence conditions | Record the licence for each photo; use only open-licensed or public domain images |
+| Maps of India must show official borders correctly | Use an approved boundary source and check Indian map rules before launch |
+| The chatbot gives wrong or invented answers | Answer from verified data only, cite sources, test with evals |
+| Web content tries to trick the chatbot | Treat all outside content as untrusted |
+| The discovery agent finds the wrong people | A person approves every candidate |
+| The directory is thin at first | Start with one or two weaves and one region |
+| Legal and privacy problems | Consent first, no scraping, legal review before launch |
+| The project grows into a marketplace | Keep the first release as a directory |
 
 Constraint: Oindrila is a beginner, so every build step needs a plain explanation.
 
 ## 10. Phases
 
-- **Phase 1 (MVP):** weave guide and weaver profiles for a small starting set of weaves and weavers, with source and trust shown.
-- **Phase 2:** price and exclusivity guidance, buyer enquiries, human review queue.
-- **Phase 3:** influencer partnerships, more regions and languages, possible revenue ideas such as featured listings.
+- **Phase 1:** map, weave guide for a starting region, weaver profiles with public links, open photos, "Know a weaver?", human review, first evals and guardrails.
+- **Phase 2:** discovery agent, chatbot, price and exclusivity guidance, expanded evals.
+- **Phase 3:** weavers connect their own Instagram, influencer partnerships, buyer enquiries, more regions and languages, possible revenue ideas.
 
-The technical design (agents, tools, hosting, app or website) comes after this document is agreed.
+The technical design (agents, tools, hosting, website or app) comes after this document is agreed.
 
 ## 11. Open questions
 
@@ -120,7 +142,9 @@ See [open-questions.md](open-questions.md).
 
 ## 12. Glossary
 
-- **Agent:** a program where Claude decides which steps to take and which tools to use to finish a task.
+- **Agent:** a program where Claude decides which steps to take and which tools to use.
+- **Chatbot:** an agent you talk to, here limited to answering from Weaves' verified information.
+- **Evals:** repeatable tests that measure how well the system works.
+- **Guardrails:** rules the system must not break.
 - **GI tag:** an official label linking a product, such as Kancheepuram silk, to its place of origin.
-- **BRD:** this document; it says what the business needs, not how to build it.
 - **Trust level:** how confident we are in a fact, based on its source and age.
