@@ -4,7 +4,7 @@ A learn-by-building project. The owner, Oindrila, is learning agentic architectu
 
 ## Product
 
-Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Currently in the requirements stage; no code yet.
+Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Website first (works on phones), installable app later. English only. Free to use. Currently in the requirements stage; no code yet.
 
 ## Rules
 
@@ -19,9 +19,19 @@ Weaves is a directory and knowledge base that connects saree lovers and buyers t
 - Prepare for the CCA-F exam; map each thing built to an exam topic.
 - Explain the why behind design choices, since understanding matters more than finishing quickly.
 
-## Exam topics (unverified)
+## Exam topics (from Anthropic's official exam guide, v1.0, July 2026, code CCAR-F)
 
-Pending. Anthropic says the exam covers Claude Code, the Claude Agent SDK, the Claude API and MCP. The official exam guide (PDF, via the Anthropic Partner Academy) lists the exact domains; Oindrila will share it. Do not rely on any domain list until then.
+60 questions, 120 minutes, proctored, pass mark 720 of 1,000, fee $125. Four scenarios are drawn from a bank of six.
+
+| Domain | Weight |
+|---|---|
+| 1. Agentic Architecture & Orchestration | 27% |
+| 2. Tool Design & MCP Integration | 18% |
+| 3. Claude Code Configuration & Workflows | 20% |
+| 4. Prompt Engineering & Structured Output | 20% |
+| 5. Context Management & Reliability | 15% |
+
+The six scenarios: customer support agent, code generation with Claude Code, multi-agent research system, developer productivity tools, Claude Code in CI/CD, structured data extraction. Weaves maps best to the multi-agent research, structured extraction and customer support (chatbot) scenarios. The guide is public on the Anthropic Partner Academy; the PDF is not stored in this repo.
 
 ## Stack and conventions
 

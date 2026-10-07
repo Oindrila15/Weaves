@@ -1,6 +1,6 @@
 # Weaves: Business Requirements Document
 
-**Version:** 0.2 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
+**Version:** 0.3 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
 
 ## 1. The problem
 
@@ -18,8 +18,9 @@ The sector is digitally unorganised. Weaves brings this information into one tru
 A platform that connects saree lovers, buyers and curious readers to weavers. It is a **directory and knowledge base**, not a shop.
 
 - **A map of India.** Click any region to see its weaves, photos and weavers.
-- **A knowledge repository** that grows through a "Know a weaver?" option anyone can use.
-- **A chatbot** that answers questions using only Weaves' own verified information.
+- **A knowledge repository** covering handloom weaves across India, built from information available online (summarised, with links back, not copied) and grown through a "Know a weaver?" option anyone can use.
+- **A chatbot** that answers questions by searching the knowledge repository (RAG, explained in the glossary) and using only Weaves' own verified information.
+- **A website first**, built to work well on phones. An installable app can follow later.
 - **Evals and guardrails** across the whole platform, so what it shows and says can be trusted.
 
 Payments and delivery stay between buyer and weaver, outside Weaves.
@@ -37,11 +38,24 @@ Payments and delivery stay between buyer and weaver, outside Weaves.
 - Learn agentic architecture by building Weaves in small steps.
 - Prepare for the Claude Certified Architect - Foundations exam using Anthropic's official materials only.
 
-**Success measures.** Targets are still to be agreed:
-- Weaves and weavers listed with a source.
-- Share of records passing data quality checks.
-- Chatbot answers that are correct and backed by a source (from the eval set).
-- Contributions received through "Know a weaver?".
+**Success measures.** Weaves is free and does not need to onboard weavers. Success is how much good information it gives out. Targets are still to be agreed.
+
+Website measures:
+- Footfall (unique visitors) and returning visitors.
+- Map clicks, searches and weave pages viewed.
+- Chatbot conversations.
+- "Know a weaver?" submissions.
+- Clicks through to weavers' public profiles.
+
+AI measures (from the eval set, section 8):
+- Chatbot answers that are correct and backed by a source.
+- Share of answers that stay within the sources (low invented content).
+- Whether the right information is found for a question (retrieval hit rate).
+- Share of out-of-scope questions correctly declined.
+- Accuracy of fields extracted from pages and screenshots.
+- Share of bad records the data quality checks catch, and how often they wrongly flag good ones.
+- Share of records sent to human review, and how often the person disagrees with the AI.
+- Time and cost per chatbot answer.
 
 ## 4. Who it is for
 
@@ -57,7 +71,8 @@ Payments and delivery stay between buyer and weaver, outside Weaves.
 ## 5. Scope
 
 **In scope**
-- Map of India with weaves by region, and open-licensed photos.
+- Map of India with all handloom weaves by region, and open-licensed photos.
+- A knowledge repository built from online information, searched by the chatbot.
 - Weave guide, weaver profiles and links to their public Instagram and Facebook profiles.
 - "Know a weaver?" submissions and an agent that finds candidate weavers from public web sources, with a person approving each one.
 - Price and exclusivity guidance.
@@ -88,7 +103,7 @@ Payments and delivery stay between buyer and weaver, outside Weaves.
 | BR-13 | A chatbot answers questions from Weaves' verified information, cites its sources, and says so when it does not know. | Should |
 | BR-14 | A set of test questions and records (evals) is run before each release to measure data extraction, data quality checks and chatbot answers. | Must |
 | BR-15 | Guardrails (section 8) apply across the platform. | Must |
-| BR-16 | Pages work well on a phone and offer English plus at least one regional language. | Should |
+| BR-16 | Pages work well on a phone. English only for now. | Should |
 
 ## 7. Where the information comes from
 
@@ -122,7 +137,8 @@ Payments and delivery stay between buyer and weaver, outside Weaves.
 | The chatbot gives wrong or invented answers | Answer from verified data only, cite sources, test with evals |
 | Web content tries to trick the chatbot | Treat all outside content as untrusted |
 | The discovery agent finds the wrong people | A person approves every candidate |
-| The directory is thin at first | Start with one or two weaves and one region |
+| Information from the web is copied or wrong | Store short summaries with links back, not whole articles; check sources and show trust levels |
+| "All of India" is a large job | Build outward from officially recognised weaves; show gaps honestly |
 | Legal and privacy problems | Consent first, no scraping, legal review before launch |
 | The project grows into a marketplace | Keep the first release as a directory |
 
@@ -130,11 +146,11 @@ Constraint: Oindrila is a beginner, so every build step needs a plain explanatio
 
 ## 10. Phases
 
-- **Phase 1:** map, weave guide for a starting region, weaver profiles with public links, open photos, "Know a weaver?", human review, first evals and guardrails.
+- **Phase 1:** map, weave guide starting with officially recognised weaves (GI tags) and widening to all Indian handlooms, weaver profiles with public links, open photos, "Know a weaver?", human review, first evals and guardrails.
 - **Phase 2:** discovery agent, chatbot, price and exclusivity guidance, expanded evals.
-- **Phase 3:** weavers connect their own Instagram, influencer partnerships, buyer enquiries, more regions and languages, possible revenue ideas.
+- **Phase 3:** weavers connect their own Instagram, influencer partnerships, buyer enquiries, installable app, more languages if wanted.
 
-The technical design (agents, tools, hosting, website or app) comes after this document is agreed.
+The technical design (agents, tools, hosting) comes after this document is agreed.
 
 ## 11. Open questions
 
@@ -145,6 +161,7 @@ See [open-questions.md](open-questions.md).
 - **Agent:** a program where Claude decides which steps to take and which tools to use.
 - **Chatbot:** an agent you talk to, here limited to answering from Weaves' verified information.
 - **Evals:** repeatable tests that measure how well the system works.
+- **RAG:** the chatbot first searches the knowledge repository for the most relevant passages, then writes its answer from them.
 - **Guardrails:** rules the system must not break.
 - **GI tag:** an official label linking a product, such as Kancheepuram silk, to its place of origin.
 - **Trust level:** how confident we are in a fact, based on its source and age.
