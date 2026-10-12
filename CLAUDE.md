@@ -4,7 +4,7 @@ A learn-by-building project. The owner, Oindrila, is learning agentic architectu
 
 ## Product
 
-Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Website first (works on phones), installable app later. English only. Free to use. Budget cap: $50 per month in total. Currently in the requirements stage; no code yet.
+Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Website first (works on phones), installable app later. English only. Free to use. Budget cap: $50 per month in total. Requirements and tech design are written; no code yet.
 
 ## Rules
 
@@ -36,7 +36,11 @@ The six scenarios: customer support agent, code generation with Claude Code, mul
 
 ## Stack and conventions
 
-To be decided as the plan firms up.
+- Python for the AI work: Claude Agent SDK and API, an MCP server over the knowledge base, the knowledge builder, discovery and chatbot agents. TypeScript (Next.js) for the website.
+- First cut includes the chatbot, knowledge builder, discovery agent, "Know a weaver?" with human review, and evals and guardrails. Community photo uploads come later.
+- Evals run automatically on every change.
+- Build one milestone at a time (M0 to M10 in `docs/tech-design.md`), explain each step plainly, and name the exam domain it teaches.
+- Database and embeddings model are still to be chosen (M1 and M3).
 
 ## Git workflow
 

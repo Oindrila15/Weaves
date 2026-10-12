@@ -1,6 +1,6 @@
 # Web search and content use
 
-**Last checked:** 7 October 2026 · **Review when:** the search tool's price or terms change, or before launch (legal check).
+**Last checked:** 7 October 2026 · **Review when:** before the discovery agent and knowledge builder are built (first cut), the search tool's price or terms change, or before launch (legal check).
 
 ## Search tool
 

@@ -1,6 +1,6 @@
 # Weaves: Business Requirements Document
 
-**Version:** 0.5 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
+**Version:** 0.6 (draft) · **Owner:** Oindrila · **Date:** 7 October 2026 · **Status:** For review
 
 ## 1. The problem
 
@@ -98,10 +98,10 @@ AI measures (from the eval set, section 8):
 | BR-07 | Weaves claiming official recognition (for example a GI tag) are checked against government sources. | Must |
 | BR-08 | Photos come only from open licences or the public domain. Each photo shows its licence and credit. | Must |
 | BR-09 | Anyone can submit a weaver through "Know a weaver?" with a link, screenshot or note. | Must |
-| BR-10 | An agent finds candidate weavers from public web sources. A person approves each one before it is listed. | Should |
+| BR-10 | An agent finds candidate weavers from public web sources. A person approves each one before it is listed. | Must |
 | BR-11 | Low-trust information and reports of errors go to a person for review before they are published. | Must |
 | BR-12 | Prices appear as ranges, and each weave shows how exclusive it is (common, limited, rare) and why. | Should |
-| BR-13 | A chatbot answers questions from Weaves' verified information, cites its sources, and says so when it does not know. | Should |
+| BR-13 | A chatbot answers questions from Weaves' verified information, cites its sources, and says so when it does not know. | Must |
 | BR-14 | A set of test questions and records (evals) is run before each release to measure data extraction, data quality checks and chatbot answers. | Must |
 | BR-15 | Guardrails (section 8) apply across the platform. | Must |
 | BR-16 | Pages work well on a phone. English only for now. | Should |
@@ -151,11 +151,11 @@ Constraint: Oindrila is a beginner, so every build step needs a plain explanatio
 
 ## 10. Phases
 
-- **Phase 1:** map, weave guide starting with officially recognised weaves (GI tags) and widening to all Indian handlooms, weaver profiles with public links, open photos, "Know a weaver?", human review, first evals and guardrails.
-- **Phase 2:** discovery agent, chatbot, community photo uploads, price and exclusivity guidance, expanded evals.
+- **Phase 1 (first cut):** map, weave guide starting with officially recognised weaves (GI tags) and widening to all Indian handlooms, weaver profiles with public links, open photos, the chatbot, a knowledge builder (several cooperating agents), the discovery agent, "Know a weaver?" with human review, and evals and guardrails.
+- **Phase 2:** community photo uploads, price and exclusivity guidance, expanded evals.
 - **Phase 3:** weavers connect their own Instagram, influencer partnerships, buyer enquiries, installable app, more languages if wanted.
 
-The technical design (agents, tools, hosting) comes after this document is agreed.
+How it will be built is in [tech-design.md](tech-design.md).
 
 ## 11. Open questions
 

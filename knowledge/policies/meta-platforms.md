@@ -1,6 +1,6 @@
 # Instagram and Facebook rules
 
-**Last checked:** 7 October 2026 · **Review when:** before Phase 2, before any Meta integration, every 3 months, or when Meta changes its terms. Not legal advice.
+**Last checked:** 7 October 2026 · **Review when:** before the discovery agent is built (first cut), before any Meta integration, every 3 months, or when Meta changes its terms. Not legal advice.
 
 ## What the sources say
 
