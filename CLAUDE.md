@@ -6,6 +6,10 @@ A learn-by-building project. The owner, Oindrila, is learning agentic architectu
 
 Weaves is a directory and knowledge base that connects saree lovers and buyers to handloom weavers: weave, material, weaver, price range, exclusivity, with a source and trust level on every fact. Not a marketplace for now. See `docs/BRD.md` and `docs/open-questions.md`. Website first (works on phones), installable app later. English only. Free to use. Budget cap: $50 per month in total. Requirements and tech design are written; no code yet.
 
+## Current focus
+
+Oindrila's CCA-F exam is imminent (late October 2026). Weaves building is paused. Work from `study/README.md` (one-week hands-on plan) and `study/syllabus-map.md`. Teach by doing: explain the idea, build a small saree-themed example, then ask scenario questions. Resume the milestones in `docs/tech-design.md` after the exam.
+
 ## Rules
 
 - Use Anthropic's official study materials only for exam prep. Never cite third-party exam guides as fact.
