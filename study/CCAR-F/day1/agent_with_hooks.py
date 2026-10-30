@@ -15,11 +15,12 @@ def pre_tool_hook(name, args):
         weaver = WEAVERS.get(args.get("weaver_id"))
         if weaver is not None and not weaver["consent"]:
             return {
-                "blocked": True,
-                "category": "policy",
+                "isError": True,
+                "category": "business",
                 "isRetryable": False,
                 "message": ("Contact details are shown only with the weaver's consent, "
-                            "and this weaver has not given it. Do not try again. "
+                            "and this weaver has not given it. Retrying will not change that: "
+                            "it becomes possible only if the weaver gives consent. "
                             "Tell the user you cannot share it, and offer other public information."),
             }
     return None
