@@ -8,7 +8,7 @@ Weaves is a directory and knowledge base that connects saree lovers and buyers t
 
 ## Current focus
 
-Oindrila's CCA-F exam is imminent (late October 2026). Weaves building is paused. Work from `study/README.md` (one-week hands-on plan) and `study/syllabus-map.md`. Teach by doing: explain the idea, build a small saree-themed example, then ask scenario questions. Resume the milestones in `docs/tech-design.md` after the exam.
+Oindrila sits two exams: CCA-F on Fri 6 Nov 2026 and CCA-P on Sat 7 Nov 2026. Weaves building is paused. Start from `study/README.md`, then work from each exam's folder: `study/CCAR-F/` and `study/CCAR-P/` (each has `schedule.md`, `syllabus-map.md` and `notes/`). Teach by doing: syllabus part, theory from the basics, the problem, then a small saree-themed build, then scenario questions. Resume the milestones in `docs/tech-design.md` after the exams.
 
 ## Rules
 
@@ -21,7 +21,7 @@ Oindrila's CCA-F exam is imminent (late October 2026). Weaves building is paused
 ## Goals
 
 - Learn agentic architecture by building small, working examples, not only reading about it.
-- Prepare for the CCA-F exam; map each thing built to an exam topic.
+- Prepare for the CCA-F and CCA-P exams; map each thing built to an exam topic.
 - Explain the why behind design choices, since understanding matters more than finishing quickly.
 
 ## Exam topics (from Anthropic's official exam guide, v1.0, July 2026, code CCAR-F)
