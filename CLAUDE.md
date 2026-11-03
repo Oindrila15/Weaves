@@ -8,7 +8,7 @@ Weaves is a directory and knowledge base that connects saree lovers and buyers t
 
 ## Current focus
 
-Oindrila sits two exams: CCA-F on Fri 6 Nov 2026 and CCA-P on Sat 7 Nov 2026. Weaves building is paused. Start from `study/README.md`, then work from each exam's folder: `study/CCAR-F/` and `study/CCAR-P/` (each has `schedule.md`, `syllabus-map.md` and `notes/`). Teach by doing: syllabus part, theory from the basics, the problem, then a small saree-themed build, then scenario questions. Resume the milestones in `docs/tech-design.md` after the exams.
+Oindrila sits two exams: CCA-F on Tue 10 Nov 2026 and CCA-P on Wed 11 Nov 2026 (both moved on 3 Nov). Weaves building is paused. Start from `study/README.md`, then work from each exam's folder: `study/CCAR-F/` and `study/CCAR-P/` (each has `schedule.md`, `syllabus-map.md` and `notes/`). Teach by doing: syllabus part, theory from the basics, the problem, then a small saree-themed build, then scenario questions. Resume the milestones in `docs/tech-design.md` after the exams.
 
 ## Rules
 

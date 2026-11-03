@@ -4,13 +4,15 @@ Two exams, back to back. Each has its own folder with a schedule, a syllabus map
 
 | Exam | Date | Folder |
 |---|---|---|
-| Claude Certified Architect - Foundations (CCA-F) | Fri 6 Nov 2026 | [CCAR-F/](CCAR-F/schedule.md) |
-| Claude Certified Architect - Professional (CCA-P) | Sat 7 Nov 2026 | [CCAR-P/](CCAR-P/schedule.md) |
+| Claude Certified Architect - Foundations (CCA-F) | Tue 10 Nov 2026 | [CCAR-F/](CCAR-F/schedule.md) |
+| Claude Certified Architect - Professional (CCA-P) | Wed 11 Nov 2026 | [CCAR-P/](CCAR-P/schedule.md) |
+
+Both were moved from 6 and 7 Nov on 3 Nov.
 
 **Rules**
 - Use Anthropic's official materials only. Practice questions are written by Claude from the official objectives and are our own.
 - Overlapping topics are taught once and tagged for both exams.
-- If a day slips, CCA-F comes first until 6 Nov.
+- If a day slips, CCA-F comes first until 10 Nov.
 - Teach in this order: syllabus part, theory from the basics, the problem, then what was built. Then scenario questions.
 - Weak spots go at the bottom of each notes file.
 
