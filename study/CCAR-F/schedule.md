@@ -11,7 +11,7 @@ If a day slips, CCA-F comes first until 10 Nov (see [../README.md](../README.md)
 | Day | Date | Learn | Build (small, saved to git) | Guide exercise | Status |
 |---|---|---|---|---|---|
 | 1 | Thu 29 Oct | Domain 1: agentic loop (1.1), hooks (1.5), enforcement (1.4) | A tool-using agent with 3 or 4 saree tools and a loop that follows `stop_reason`. A hook that blocks a rule-breaking call | Exercise 1 | Done (guide exercise not yet done) |
-| 2 | Fri 30 Oct to Tue 3 Nov | Domain 2: tool descriptions (2.1), errors (2.2), tool counts and `tool_choice` (2.3), MCP (2.4) | Rewrite two overlapping tools so Claude picks correctly. Add structured errors (category, retryable). A tiny MCP server | Exercise 1, 2 | All taught. Lesson 4 (MCP) answers pending |
+| 2 | Fri 30 Oct to Tue 3 Nov | Domain 2: tool descriptions (2.1), errors (2.2), tool counts and `tool_choice` (2.3), MCP (2.4) | Rewrite two overlapping tools so Claude picks correctly. Add structured errors (category, retryable). A tiny MCP server | Exercise 1, 2 | Done. MCP answers marked |
 | 3 | Tue 3 Nov | Domain 4: criteria, few-shot, schemas, retry, batch | Extract a weave record from a web page: nullable fields, validate and retry, a small batch run | Exercise 3 | |
 | 4 | Wed 4 Nov | Domain 1.2 to 1.3, 1.6 to 1.7 and Domain 5.3, 5.6 | A coordinator with two subagents, run in parallel, passing sources through to a cited summary. Simulate a timeout | Exercise 4 | |
 | 5 | Thu 5 Nov | Domain 3: CLAUDE.md levels, rules, skills, plan mode, CI | Configure the Weaves repo: `.claude/rules/` with paths, one skill with `context: fork`, a `.mcp.json`. Run `claude -p` | Exercise 2 | |

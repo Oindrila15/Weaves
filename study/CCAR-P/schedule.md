@@ -8,7 +8,7 @@ Topics that overlap with CCA-F are taught once, in the CCA-F session (see [../CC
 
 | Date | Learn | Objectives | Status |
 |---|---|---|---|
-| Fri 30 Oct to Tue 3 Nov | Tool and agent configuration, capability bloat, least privilege (taught with F 2.3). MCP vs API vs agent-to-agent (taught with F 2.4) | 3.1, 3.7 | Taught. Answers pending |
+| Fri 30 Oct to Tue 3 Nov | Tool and agent configuration, capability bloat, least privilege (taught with F 2.3). MCP vs API vs agent-to-agent (taught with F 2.4) | 3.1, 3.7 | Taught. Answers marked |
 | Tue 3 Nov | Authentication and authorisation | 3.2 | |
 | Wed 4 Nov | Model choice, system prompts, chain-of-thought, caching, context | Domain 2 | |
 | Thu 5 Nov | Choosing a pattern, business framing, value pillars | Domain 1 | |
