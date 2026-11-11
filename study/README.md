@@ -7,10 +7,9 @@ Two exams, on consecutive days. (A third, CCAO-F on Thu 26 Nov, is Oindrila's ow
 | Claude Certified Architect - Foundations (CCA-F) | Tue 24 Nov 2026 | [CCAR-F/](CCAR-F/schedule.md) |
 | Claude Certified Architect - Professional (CCA-P) | Wed 25 Nov 2026 | [CCAR-P/](CCAR-P/schedule.md) |
 
-
 Both moved on 4 Nov (were 10 and 11 Nov).
 
-**Plan at a glance:** away 7 to 10 Nov and 15 Nov. Teaching for both exams finishes Sat 14 Nov (F: 4, 5, 6, 11 Nov; P: 4, 11, 12, 13, 14 Nov). Mon 16 Nov mop-up, 17 to 21 spare, Sun 22 light review, Mon 23 rest. Videos per topic: [videos.md](videos.md).
+**Plan at a glance (revised 11 Nov):** away 14 and 15 Nov. CCA-F teaching: Domain 4 on 11 to 12 Nov, Domain 1 on 12 Nov, Domain 3 on 13 Nov, Domain 5 on 16 Nov. CCA-P teaching: 17 to 20 Nov. Practice for both on Sat 21 Nov, weak spots on Sun 22, rest on Mon 23. Videos per topic: [videos.md](videos.md).
 
 **Rules**
 - Use Anthropic's official materials only. Practice questions are written by Claude from the official objectives and are our own.

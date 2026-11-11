@@ -9,16 +9,16 @@ Topics that overlap with CCA-F are taught once, in the CCA-F session (see [../CC
 | Date | Learn | Objectives | Status |
 |---|---|---|---|
 | Fri 30 Oct to Tue 3 Nov | Tool and agent configuration, capability bloat, least privilege (taught with F 2.3). MCP vs API vs agent-to-agent (taught with F 2.4) | 3.1, 3.7 | Taught. Answers marked |
-| Wed 4 Nov | Authentication and authorisation | 3.2 | |
-| Wed 11 Nov | Model choice, system prompts, chain-of-thought, caching, context | Domain 2 | |
-| Thu 12 Nov | Choosing a pattern, business framing, value pillars. Developer productivity, and RAG part 1 | Domain 1, Domain 7, 3.5 | |
-| Fri 13 Nov | RAG part 2: retrieval, progressive discovery. Guardrails, compliance, ethics | 3.6, 3.8, Domain 5 | |
-| Sat 14 Nov | Evaluation, accuracy-latency, observability, stakeholders | Domain 4, 3.3, 3.4, Domain 6 | |
-| Mon 16 Nov | Practice questions and weak spots. No new topics | | |
+| Tue 17 Nov | Authentication and authorisation. Model choice, system prompts, chain-of-thought, caching, context | 3.2, Domain 2 | |
+| Wed 18 Nov | Choosing a pattern, business framing, value pillars. Developer productivity, and RAG part 1 | Domain 1, Domain 7, 3.5 | |
+| Thu 19 Nov | RAG part 2: retrieval, progressive discovery. Guardrails, compliance, ethics | 3.6, 3.8, Domain 5 | |
+| Fri 20 Nov | Evaluation, accuracy-latency, observability, stakeholders | Domain 4, 3.3, 3.4, Domain 6 | |
+| Sat 21 Nov | Practice questions for both exams and weak spots | | |
 | Sun 22 Nov | Light review of weak spots | | |
+| Mon 23 Nov | Rest | | |
 | Tue 24 Nov | CCA-F exam day. Evening: 30 to 45 minutes of light CCA-P review, then sleep | | |
 | **Wed 25 Nov** | **Exam** | | |
 
-Away: Sat 7 to Tue 10 Nov and Sun 15 Nov. Videos: [../videos.md](../videos.md).
+Away: Sat 7 to Tue 10 Nov, Sat 14 and Sun 15 Nov. Videos: [../videos.md](../videos.md).
 
 **Exam facts:** 63 questions, 120 minutes, pass mark 720 on a 100 to 1,000 scale, fee $175. Cancel or reschedule up to 24 hours before; changes inside 24 hours forfeit the fee. Government photo ID with the name matching your registration exactly. No phone, notes or watch. Do not share exam content.
