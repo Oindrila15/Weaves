@@ -10,3 +10,4 @@ __pycache__/
 
 # Exam guides stay local (public repo)
 study/**/*.pdf
+study/CCAR-F/day3/batch_id.txt
