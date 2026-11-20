@@ -2,7 +2,7 @@
 
 Exam: **Tuesday 22 December 2026**, the day after CCA-F (moved from 25 Nov). Built from Anthropic's official exam guide (`CCA-P-Exam-Guide.pdf` in this folder, kept local and not in git). See [syllabus-map.md](syllabus-map.md) for all 38 objectives in plain language. Revision sheets will go in `notes/`.
 
-Topics that overlap with CCA-F are taught once, in the CCA-F session (see [../CCAR-F/schedule.md](../CCAR-F/schedule.md)), and tagged here. Topics that overlap with CCA-F are taught once, in the CCA-F session (see [../CCAR-F/schedule.md](../CCAR-F/schedule.md)), and tagged here. If a day slips, CCA-F comes first until 21 Dec. Revised on Fri 20 Nov after the exams moved to 21 to 23 Dec. Weekends are off. The new guides (reportedly from 17 Nov) must be compared with ours first.
+Topics that overlap with CCA-F are taught once, in the CCA-F session (see [../CCAR-F/schedule.md](../CCAR-F/schedule.md)), and tagged here. Topics that overlap with CCA-F are taught once, in the CCA-F session (see [../CCAR-F/schedule.md](../CCAR-F/schedule.md)), and tagged here. If a day slips, CCA-F comes first until 21 Dec. Revised on Fri 20 Nov after the exams moved to 21 to 23 Dec. Weekends are off. A new CCAR-P guide was reportedly published on 17 Nov, with changes from 7 Dec (70 questions, new domain weights; third-party reports, unconfirmed). Download it and compare it with our syllabus map before teaching starts on Mon 7 Dec.
 
 **Method:** same as CCA-F: syllabus part, theory from the basics, the problem, then a small build or worked example, then scenario questions. Practice questions are written by Claude from the official objectives. They are our own practice, not official items.
 

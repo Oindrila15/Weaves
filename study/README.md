@@ -9,7 +9,7 @@ Two exams, on consecutive days. (A third, CCAO-F on Wed 23 Dec, is Oindrila's ow
 
 Moved again on 20 Nov (were 24 and 25 Nov; before that 10 and 11 Nov).
 
-**Plan at a glance (revised 20 Nov):** weekends off. CCA-F teaching 20 Nov to 3 Dec (Domain 4, then 1, 3, 5), buffer 4 Dec. CCA-P teaching 7 to 14 Dec, practice 15 to 16 Dec, buffer 17 Dec, light review 18 Dec, rest 19 to 20 Dec. First step: compare the new exam guides (reportedly from 17 Nov) with ours. Videos: [videos.md](videos.md).
+**Plan at a glance (revised 20 Nov):** weekends off. CCA-F teaching 20 Nov to 3 Dec (Domain 4, then 1, 3, 5), buffer 4 Dec. CCA-P teaching 7 to 14 Dec, practice 15 to 16 Dec, buffer 17 Dec, light review 18 Dec, rest 19 to 20 Dec. First step: download the new CCAR-P guide (reportedly from 17 Nov; CCAR-F reportedly unchanged) and compare it with ours before 7 Dec. Videos: [videos.md](videos.md).
 
 **Rules**
 - Use Anthropic's official materials only. Practice questions are written by Claude from the official objectives and are our own.
