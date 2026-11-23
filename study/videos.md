@@ -15,4 +15,13 @@ Anthropic's free Academy (Skilljar) courses cover several topics: look for *Clau
 | Context and reliability (F Domain 5, P Domain 2) | Search title: *Effective context engineering for AI agents* (anthropic.com/engineering) |
 | RAG, evals, guardrails (P) | Academy *Claude with the Anthropic API* (evals and RAG sections). Search title: *Demystifying evals for AI agents* (anthropic.com/engineering). Official docs pages on evaluation and guardrails |
 
+**CCA-P official course (Anthropic Academy):** *Claude Certified Architect Professional*, 5 lessons, 733 minutes in total (found in a course description Oindrila shared on 23 Nov; the course link is on academy.claude.com, find it from the Academy menu). Use the matching lesson as a second explanation after our chapter, not all 12 hours:
+| Lesson | Minutes | Matches (our inference) |
+|---|---|---|
+| Claude Platform & Solution Design | 238 | P Domains 1 and 2 |
+| Enterprise Integration & Production | 158 | P Domain 3 |
+| Responsible AI, Safety & Risk for Architects | 114 | P Domain 5 |
+| Stakeholder Engagement, Lifecycle & GTM | 178 | P Domain 6 |
+| Team Enablement & Operational Productivity | 45 | P Domain 7 |
+
 Add the link you actually watched and one line on what you learned.
