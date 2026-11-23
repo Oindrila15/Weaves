@@ -8,7 +8,7 @@ Weaves is a directory and knowledge base that connects saree lovers and buyers t
 
 ## Current focus
 
-Oindrila sits two exams: CCA-F on Mon 21 Dec 2026 and CCA-P on Tue 22 Dec (moved on 20 Nov; a third, CCAO-F on 23 Dec, is her own prep, no Claude training). Weekends are off. CCA-F teaching runs to 3 Dec, CCA-P 7 to 14 Dec. A new CCAR-P guide (reportedly 17 Nov; CCAR-F reportedly unchanged) must be compared with ours before 7 Dec. Weaves building is paused. Start from `study/README.md`, then work from each exam's folder: `study/CCAR-F/` and `study/CCAR-P/` (each has `schedule.md`, `syllabus-map.md` and `notes/`). Teach by doing: syllabus part, theory from the basics, the problem, then a small saree-themed build, then scenario questions. Resume the milestones in `docs/tech-design.md` after the exams.
+Oindrila sits two exams: CCA-F on Mon 21 Dec 2026 and CCA-P on Tue 22 Dec (moved on 20 Nov; a third, CCAO-F on 23 Dec, is her own prep, no Claude training). Weekends are off. CCA-F teaching runs to 3 Dec, CCA-P 7 to 14 Dec. CCAR-F guide v1.1 (Nov 2026) was checked: content unchanged. A new CCAR-P guide (reportedly changing from 7 Dec) must be compared with ours before 7 Dec. Weaves building is paused. Start from `study/README.md`, then work from each exam's folder: `study/CCAR-F/` and `study/CCAR-P/` (each has `schedule.md`, `syllabus-map.md` and `notes/`). Teach by doing: syllabus part, theory from the basics, the problem, then a small saree-themed build, then scenario questions. Resume the milestones in `docs/tech-design.md` after the exams.
 
 ## Rules
 
@@ -24,7 +24,7 @@ Oindrila sits two exams: CCA-F on Mon 21 Dec 2026 and CCA-P on Tue 22 Dec (moved
 - Prepare for the CCA-F and CCA-P exams; map each thing built to an exam topic.
 - Explain the why behind design choices, since understanding matters more than finishing quickly.
 
-## Exam topics (from Anthropic's official exam guide, v1.0, July 2026, code CCAR-F)
+## Exam topics (from Anthropic's official exam guide, v1.1, November 2026, code CCAR-F)
 
 60 questions, 120 minutes, proctored, pass mark 720 of 1,000, fee $125. Four scenarios are drawn from a bank of six.
 

@@ -1,6 +1,6 @@
 # CCA-F syllabus map
 
-Plain-language summary of Anthropic's official exam guide (CCAR-F, v1.0, July 2026). The guide itself is the authority: https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification
+Plain-language summary of Anthropic's official exam guide (CCAR-F, v1.1, November 2026; checked on 23 Nov against v1.0: same domains, weights, task statements, 60 items, 120 minutes, $125; v1.1 only changes registration, identification, support and exam-day rules, for example smart glasses are now listed as prohibited). The guide itself is the authority: https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification
 
 **Exam:** 60 questions, 120 minutes, multiple choice and multiple response, pass mark 720 of 1,000. Four scenarios are picked at random from six: customer support agent, Claude Code for development, multi-agent research system, developer productivity tools, Claude Code in CI/CD, structured data extraction.
 

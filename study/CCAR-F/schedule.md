@@ -2,7 +2,7 @@
 
 Exam: **Monday 21 December 2026** (moved from 24 Nov). Built from Anthropic's official exam guide only (`CCA-F-Exam-Guide.pdf` in this folder, kept local and not in git). See [syllabus-map.md](syllabus-map.md) for all 30 topics in plain language and [notes/](notes/) for revision sheets. Code lives in [day1/](day1/) and [day2/](day2/).
 
-If a day slips, CCA-F comes first until 21 Dec (see [../README.md](../README.md)). Revised on Fri 20 Nov after the exams moved to 21 to 23 Dec. Weekends are off. **Note:** third-party sites say the 7 Dec exam changes affect CCAO-F, CCDV-F and CCAR-P but not CCAR-F (unconfirmed; Anthropic's page blocks my tool). If the CCAR-F guide on Anthropic's site shows a newer version than v1.0 July 2026, compare it with ours first.
+If a day slips, CCA-F comes first until 21 Dec (see [../README.md](../README.md)). Revised on Fri 20 Nov after the exams moved to 21 to 23 Dec. Weekends are off. **Guide check (23 Nov):** the new CCAR-F guide v1.1 (November 2026) was compared with v1.0. Content is unchanged (same 5 domains and weights, same task statements); only registration, identification, support and exam-day rules changed. The plan below stands. Both PDFs are kept locally, not in git.
 
 **Method:** each day, learn a domain's ideas, build a small thing that uses them (on saree data, so it is useful for Weaves later), then answer practice questions. Building teaches the *how*; the exam asks *which design is best*, so every day ends with scenario questions.
 
